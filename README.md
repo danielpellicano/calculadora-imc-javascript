@@ -1,5 +1,5 @@
 # calculadora-imc-javascript
-Calculadora de IMC cpm Javascript
+Calculadora de IMC com Javascript
 
 Este é um projeto simples em javascript, feito para um trabalho no meu MBA de Front End.
 

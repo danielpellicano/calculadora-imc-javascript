@@ -1,0 +1,85 @@
+body {
+    background: #eee;
+    font-family: Arial;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#app {
+    display:flex;
+}
+
+#app input {
+    display:block;
+    width:100%;
+    padding:10px;
+    box-sizing: border-box;
+    margin-bottom: 10px;;
+}
+
+#calc-imc, #tabela-imc {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    margin:0 20px;
+}
+
+#tabela-imc thead tr td {
+    background: #eee;
+}
+
+#tabela-imc tr td{
+    border-bottom: 1px solid #000;
+    padding:10px;
+}
+
+.baixo {
+    background: #fff7c5;
+}
+
+.normal {
+    background: #f7e09f;
+}
+
+.excesso {
+    background: #f9bf73;
+}
+
+.obesidade {
+    background: #fbb03b;
+}
+
+.obesidade2 {
+    background: #f7931e;
+}
+
+.obesidade3 {
+    background: #f15a24;
+}
+
+#resultado {
+    padding: 10px;
+    text-align: center;
+}
+
+p {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+input[type="submit"] {
+background: rgb(34,193,195);
+background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(45,115,253,1) 100%);
+border:0;
+color:#fff;
+text-transform: uppercase;
+cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgba(34,193,195,1) 100%, rgba(45,115,253,1) 0%);
+}
